@@ -1,0 +1,277 @@
+ body{
+    display: block;
+ }   
+ .navbar{
+    background-color:  #00C9FF;
+    
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #92FE9D, #00C9FF);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: rgb(133, 128, 121);
+        font-size: 0.47cm;
+        padding-right: 4.5rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ } 
+ .nav-item{
+    padding: 10px auto;
+    margin-left: 0.6cm;
+    display: flex;
+    font-weight: 400;
+    font-size: 0.49cm;
+ }
+ .margin{
+    margin-left: 8.7cm;
+    display: flex;
+ }
+ .navbar-brand{
+   margin-left: 1.5cm;
+   font-weight: 550;
+   font-size:larger;
+   color: rgb(133, 128, 121);
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .btn{
+   color: rgb(19, 18, 18);
+   border-radius: 3cm;
+   font-size: large;
+   background: -webkit-linear-gradient(to right, #535a53, #212324);
+   background: linear-gradient(to right, #444644, #1f2020);
+   border: none;
+   font-weight: 700;
+ }
+ .container{
+   height: 12cm;
+   border: solid 5px #00C9FF ;
+   align-items: center;
+   border-radius: 2cm;
+   margin-top: 1.5cm;
+   margin-bottom: 1.5cm;
+   border-style: groove;
+ }
+ .about h3{
+   font-size: larger;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 1cm;
+   text-align: left;
+   margin-left: 3cm;
+   margin-top: 0.7cm;
+ }
+/* Hero section */
+.hero {
+  background: #000000;
+  background: linear-gradient(to right, #161616 #000000);
+  padding: 200px 0;
+}
+
+.hero_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 90%;
+  text-align: center;
+  padding: 30px;
+}
+
+.hero_heading {
+  font-size: 50px;
+  margin-bottom: 24px;
+  color: #fff;
+}
+
+.hero_heading {
+
+  background: #00C9FF;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #92FE9D, #00C9FF);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.hero_description {
+  font-size: 30px;
+  background: #56CCF2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F80ED, #56CCF2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+}
+
+.highlight {
+  border-bottom: 4px solid rgb(132, 0, 255);
+
+}
+
+@media screen and (max-width:768px) {
+  .hero_heading {
+    font-size: 60px;
+  }
+
+  .hero_description {
+    font-size: 40px;
+  }
+}
+
+.main_btn {
+  font-size: 1.8rem;
+  background-color: #00C9FF;
+
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #92FE9D, #00C9FF);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 20px 60px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+
+.main_btn a {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main_btn:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff1ead;
+  transition: all 0.35s;
+  border-radius: 4px;
+}
+
+.main_btn:hover {
+  color: #fff;
+
+}
+
+.main_btn:hover:after {
+  width: 100%;
+}
+
+/* Register section */
+.register {
+  background: #131313;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 10rem 0;
+}
+
+.register h1 {
+  background: #56CCF2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F80ED, #56CCF2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin-bottom: 5rem;
+  font-size: 2.5rem;
+}
+
+.register_wrapper {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.register_card {
+  margin: 10px;
+  height: 425px;
+  width: 300px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  background-image: linear-gradient(to right, #00dbde 0%, #2f80ed 100%);
+  transition: 0.3s ease-in;
+  padding: 10px auto;
+}
+
+.register_card h2 {
+  text-align: center;
+}
+
+.register_card p {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 20px;
+}
+
+.regster_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.register_card button {
+  color: #fff;
+  padding: 14px 24px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #131313;
+  font-size: 1rem;
+}
+
+.register_card button:hover {
+  cursor: pointer;
+}
+
+.register_card:hover {
+  transform: scale(1.075);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+  .register_wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .register_wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+    
+
+ 
+     

@@ -1,0 +1,11 @@
+.btn{
+    align-items: center;
+    background-color: #00c9ff;
+    background: linear-gradient(to right, #92FE9D, #00C9FF); ;
+    border-style: none;
+    margin-left: 6cm;
+}
+.card{
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
