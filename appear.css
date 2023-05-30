@@ -1,0 +1,29 @@
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 3s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+/*.ANGLOPHONE {
+    display: inline-block;
+}
+
+#picsl {
+    float: right;
+    margin-top: 1cm;
+    background-color: red;
+    width: 18cm;
+    height: 350px;
+    margin-left: 4cm;
+}
+
+.card1 {
+    float: left;
+}*/
